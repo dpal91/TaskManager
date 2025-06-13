@@ -425,33 +425,3 @@ class HomePage extends GetWidget<HomeController> {
     ]);
   }
 }
-
-// class _HomePageState {
-//   final List<Task> _tasks = [];
-//
-//   void _deleteTask(int index) {
-//     showDialog(
-//       context: context,
-//       builder: (context) => AlertDialog(
-//         title: const Text('Delete Task'),
-//         content: const Text('Are you sure you want to delete this task?'),
-//         actions: [
-//           TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
-//           ElevatedButton(
-//             onPressed: () {
-//               setState(() {
-//                 _tasks.removeAt(index);
-//               });
-//               Navigator.pop(context);
-//             },
-//             child: const Text('Delete'),
-//           ),
-//         ],
-//       ),
-//     );
-//   }
-//
-//
-//
-//
-// }
